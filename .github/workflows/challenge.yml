@@ -16,8 +16,8 @@ jobs:
           flag: "${{ secrets.FLAG }}"
         run: |
           echo "$user:$issues" >> issues
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name Zchengwu
+          git config user.email 297896036@qq.com
           git add .
           git commit -m "add a new issue"
           git push
